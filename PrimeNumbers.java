@@ -63,5 +63,8 @@ public class PrimeNumbers {
 		for (k = 0; k < primeArr.length; k++) {
 			System.out.println(primeArr[k]);
 		}
+
+		// close scanner
+		scan.close();
 	}
 }
